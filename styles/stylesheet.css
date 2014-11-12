@@ -1,0 +1,151 @@
+* 
+	{ margin: 5px;
+    padding: 5px;
+	}
+	
+#wrapper{
+	margin:5px 5px 5px 5px;
+	position: relative;
+}
+
+p 
+	{
+        padding: 2rem 3rem 3rem 8rem;
+        font-size: 1rem;
+	}
+
+h1 
+	{
+        color: #FFFFF;
+        padding-bottom: .5rem;
+        text-align: left;
+        font-weight: lighter;
+	}
+
+h3 
+	{
+        color: #FFFFF;
+        padding-bottom: 2rem;
+        text-align: left;
+        font-weight: lighter;
+	}
+
+body 
+	{
+        font-family: sans-serif;
+		font-size: 1.2rem;
+	}
+
+header
+	{
+		text-align:center;
+        background-color: #c1e058;
+        font-size: 2rem;
+        margin-bottom: 5px;
+        color: #000000;
+        width: 100%;
+	}
+
+div
+    {
+        float: left;
+    }
+	
+nav 
+	{
+		font-size:1.5rem;
+		text-align:center;
+		font-weight: regular;
+	}
+
+nav.topnav
+	{
+        background-color: #FFFFFF;
+    }
+	
+nav li
+	{
+		list-style-type: none;
+		padding: auto;
+	}
+
+nav A:link, nav A:hover, nav A:visited
+	{
+        color: #000000;/*The color of the link*/
+		text-decoration:none;
+	}
+
+nav.topnav li 
+	{
+        display: inline-block;
+        padding: .25rem;
+	}
+
+nav.sidenav /*blue side bar*/
+	{
+        background-color: #57dfdd;
+        padding: 2rem;
+        color: #FFFFFF;
+        width: 30%;
+		height: 24rem;
+        float:left;
+    }
+
+nav.sidenav li 
+    {
+        margin-right: 10px;
+        padding: .75rem;
+	}
+
+aside /*bottom left darker blue*/
+  {
+        background-color: #57bedf;
+        padding: 4rem;
+        color: #FFFFFF;
+        width: 15%;
+		height: 8rem;
+        float:left;
+        margin: 5 5 5 5;
+  }
+
+article /*main content*/
+	{
+        background-color: #FFFFFF;
+        height: 20rem;
+        text-align:center;
+        float: right;
+	}
+
+section /*mustard heading*/
+    {
+        background-color: #dfd758;
+        padding: 30;
+        height: 80px;
+        line-height: 80px;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+
+.sectionhead
+    {
+        line-height: normal;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+clearfloat
+    {
+            clear: both;
+	}
+
+footer 
+	{
+		text-align: center;
+        padding: .5rem 0 .5rem 0;
+        background-color: #aeafb1;
+        height: 80px;
+	}
+footer img
+	{
+		width: 3rem;
+        float:right;
+	}

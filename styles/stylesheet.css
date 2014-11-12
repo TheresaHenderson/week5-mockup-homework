@@ -1,16 +1,12 @@
 * 
-	{ margin: 5px;
-    padding: 5px;
+	{ 
+        margin: 5px;
+        padding: 5px;
 	}
 	
-#wrapper{
-	margin:5px 5px 5px 5px;
-	position: relative;
-}
-
 p 
 	{
-        padding: 2rem 3rem 3rem 8rem;
+        padding: 2rem 20rem 3rem 20rem;
         font-size: 1rem;
 	}
 
@@ -40,10 +36,8 @@ header
 	{
 		text-align:center;
         background-color: #c1e058;
-        font-size: 2rem;
-        margin-bottom: 5px;
+        font-size: 1.5rem;
         color: #000000;
-        width: 100%;
 	}
 
 div
@@ -51,22 +45,13 @@ div
         float: left;
     }
 	
+
+
 nav 
 	{
-		font-size:1.5rem;
+		font-size:1.2rem;
 		text-align:center;
-		font-weight: regular;
-	}
-
-nav.topnav
-	{
-        background-color: #FFFFFF;
-    }
-	
-nav li
-	{
-		list-style-type: none;
-		padding: auto;
+		font-weight: lighter;
 	}
 
 nav A:link, nav A:hover, nav A:visited
@@ -75,20 +60,38 @@ nav A:link, nav A:hover, nav A:visited
 		text-decoration:none;
 	}
 
+nav li
+	{
+        list-style-type: none;
+		padding: auto;
+	}
+
+
+
+
+nav.topnav
+	{
+        background-color: #FFFFFF;
+    }
+
+
+
 nav.topnav li 
 	{
         display: inline-block;
         padding: .25rem;
 	}
 
-nav.sidenav /*blue side bar*/
+
+
+nav.sidenav /*bluegreen side bar*/
 	{
         background-color: #57dfdd;
         padding: 2rem;
         color: #FFFFFF;
-        width: 30%;
+        width: 75%;
 		height: 24rem;
-        float:left;
+        margin-bottom: 20px;
     }
 
 nav.sidenav li 
@@ -97,45 +100,42 @@ nav.sidenav li
         padding: .75rem;
 	}
 
+
+
 aside /*bottom left darker blue*/
   {
-        background-color: #57bedf;
-        padding: 4rem;
+        background-color: #37b7e1;
+        padding: 2rem;
         color: #FFFFFF;
-        width: 15%;
-		height: 8rem;
-        float:left;
-        margin: 5 5 5 5;
-  }
+        width: 75%;
+		height: 10rem;
+    }
+
+
 
 article /*main content*/
 	{
         background-color: #FFFFFF;
         height: 20rem;
         text-align:center;
-        float: right;
+    
 	}
 
-section /*mustard heading*/
+
+
+
+
+div .sectionhead /*mustard heading*/
     {
         background-color: #dfd758;
-        padding: 30;
         height: 80px;
         line-height: 80px;
         color: #FFFFFF;
         font-size: 1.5rem;
-
-.sectionhead
-    {
-        line-height: normal;
         vertical-align: middle;
         display: inline-block;
-    }
-
-clearfloat
-    {
-            clear: both;
-	}
+        }
+            
 
 footer 
 	{
@@ -144,8 +144,9 @@ footer
         background-color: #aeafb1;
         height: 80px;
 	}
+        
 footer img
 	{
 		width: 3rem;
-        float:right;
-	}
+        float: right;
+    }

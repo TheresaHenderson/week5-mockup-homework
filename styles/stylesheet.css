@@ -1,14 +1,17 @@
 * 
 	{ 
-        margin: 5px;
-        padding: 5px;
+        margin: 0px;
+        padding: 0px;
 	}
 	
+
 p 
 	{
-        padding: 2rem 20rem 3rem 20rem;
+        padding: 11rem 10rem 3rem 20rem;
         font-size: 1rem;
+        align-content: center;
 	}
+
 
 h1 
 	{
@@ -18,6 +21,16 @@ h1
         font-weight: lighter;
 	}
 
+h2 
+	{
+        color: #FFFFF;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        text-align: center;
+        font-weight: lighter;
+	}
+
+
 h3 
 	{
         color: #FFFFF;
@@ -26,11 +39,13 @@ h3
         font-weight: lighter;
 	}
 
+
 body 
 	{
         font-family: sans-serif;
 		font-size: 1.2rem;
 	}
+
 
 header
 	{
@@ -38,7 +53,9 @@ header
         background-color: #c1e058;
         font-size: 1.5rem;
         color: #000000;
+        padding: 20px 5px 5px 20px;
 	}
+
 
 div
     {
@@ -63,7 +80,6 @@ nav A:link, nav A:hover, nav A:visited
 nav li
 	{
         list-style-type: none;
-		padding: auto;
 	}
 
 
@@ -72,6 +88,8 @@ nav li
 nav.topnav
 	{
         background-color: #FFFFFF;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
 
@@ -90,7 +108,7 @@ nav.sidenav /*bluegreen side bar*/
         padding: 2rem;
         color: #FFFFFF;
         width: 75%;
-		height: 24rem;
+		height: 18rem;
         margin-bottom: 20px;
     }
 
@@ -103,12 +121,13 @@ nav.sidenav li
 
 
 aside /*bottom left darker blue*/
-  {
+   {
         background-color: #37b7e1;
-        padding: 2rem;
+       padding: 2rem;
         color: #FFFFFF;
         width: 75%;
-		height: 10rem;
+		height: 8rem;
+        margin-bottom: 20px;
     }
 
 
@@ -118,35 +137,29 @@ article /*main content*/
         background-color: #FFFFFF;
         height: 20rem;
         text-align:center;
-    
-	}
-
-
-
-
+    }
 
 div .sectionhead /*mustard heading*/
     {
         background-color: #dfd758;
-        height: 80px;
-        line-height: 80px;
+        height: 60px;
+        line-height: 20px;
         color: #FFFFFF;
-        font-size: 1.5rem;
+        font-size: 1rem;
         vertical-align: middle;
         display: inline-block;
+        width: 76%;
+        padding: 10px 10px 10px 10px;
+        float: right;
+        margin-left: 0;
         }
             
 
 footer 
 	{
-		text-align: center;
-        padding: .5rem 0 .5rem 0;
         background-color: #aeafb1;
-        height: 80px;
-	}
-        
-footer img
-	{
-		width: 3rem;
-        float: right;
+        height: 40px;
+        clear: both;
+        padding: 20px 20px 20px 20px;
     }
+

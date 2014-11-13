@@ -3,7 +3,11 @@
         margin: 0px;
         padding: 0px;
 	}
-	
+
+div#wrapper
+	{
+		margin: 1rem;
+	}
 
 p 
 	{
@@ -163,4 +167,9 @@ footer
         padding: 20px 20px 20px 1000px;
     }
 
+footer i
+	{
+		float:right;
+		margin: 5px;
+	}
 

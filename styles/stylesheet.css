@@ -97,7 +97,7 @@ nav.topnav
 nav.topnav li 
 	{
         display: inline-block;
-        padding: .25rem;
+        padding: 1rem;
 	}
 
 
@@ -148,7 +148,7 @@ div .sectionhead /*mustard heading*/
         font-size: 1rem;
         vertical-align: middle;
         display: inline-block;
-        width: 76%;
+        width: 78%;
         padding: 10px 10px 10px 10px;
         float: right;
         margin-left: 0;
@@ -160,6 +160,7 @@ footer
         background-color: #aeafb1;
         height: 40px;
         clear: both;
-        padding: 20px 20px 20px 20px;
+        padding: 20px 20px 20px 1000px;
     }
+
 
